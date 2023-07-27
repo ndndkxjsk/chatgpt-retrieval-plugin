@@ -1,19 +1,18 @@
 {
   "schema_version": "v1",
-  "name_for_model": "longchain_docs_db",
-  "name_for_human": "LangChain Docs",
-  "description_for_model": "Use this tool to get up to date information about LangChain Python library. Do not use this tool if the use did not ask about LangChain. ",
-  "description_for_human": "Up to date information about LangChain Python library.",
+  "name_for_human": "POAPs Counter",
+  "name_for_model": "poapscounter",
+  "description_for_human": "Plugin for counting how many POAPs a ETH address have.",
+  "description_for_model": "Plugin for query an ETH address how many POAPs in total. Use keywords 'ETH', 'POAPs', 'address' to prompt the plugin.",
   "auth": {
-    "type": "user_http",
-    "authorization_type": "bearer"
+    "type": "none"
   },
   "api": {
     "type": "openapi",
-    "url": "https://lobster-app-rr6pz.ondigitalocean.app/.well-known/openapi.yaml",
-    "has_user_authentication": false
+    "url": "https://currency-conversion-plugin.shengyangwang.repl.co/.well-known/openapi.yaml",
+    "is_user_authenticated": false
   },
-  "logo_url": "https://lobster-app-rr6pz.ondigitalocean.app/.well-known/logo.png",
-  "contact_email": "hello@contact.com", 
-  "legal_info_url": "http://example.com/legal-info"
+  "logo_url": "https://your-domain.com/logo.png",
+  "contact_email": "support@your-domain.com",
+  "legal_info_url": "https://www.your-domain.com/legal"
 }
